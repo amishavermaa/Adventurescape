@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="img/logo.png">
+    <title>Adventurescape</title>
+	
+</head>
+<body>
+	<div class="navbar">
+        <h2 class="logo"style="color:#fff;">Adventurescape</h2>
+        <div id="hamburger">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About Us </a></li>
+            <li><a href="#destinations">Destinations </a></li>
+			<li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+	
+	<div class="hero-image">
+		<video autoplay muted playsinline loop style="width:100%;">
+			<source src="img/video.mp4" type="video/mp4">
+		</video>
+		
+		<div class="container">
+			<h1>IT'S TIME FOR NEW <span class="auto-text"></span> </h1>
+		</div>
+	</div>
+
+	<div class="about"  id="about">
+         <h1>About us</h1>
+         <p>Welcome to AdventureScape ! We are passionate explorers and adventure seekers on a mission to inspire and empower fellow travelers to embark on remarkable journeys and discover the world's most captivating destinations. Our website is your gateway to a world of wanderlust, where we share our experiences, insights, and tips to make your travel dreams come true.
+			 <br>Our mission is simple: to ignite the spirit of adventure within you and to guide you as you venture into the world's most awe-inspiring places. We want to be your source of inspiration, information, and encouragement, whether you're a seasoned explorer or a first-time traveler. Adventurescape.com is a platform to stoke your wanderlust, equip you with practical travel advice, and foster a sense of global community.
+			 <br>Let's explore together!
+		</p>
+    </div>
+	<div class="marquee-container">
+		<h1 id="destinations" style="text-align:center; color:#812824; font-size:35px;padding: 20px;">Weekend Trips<h1>
+		<div style="padding: 40px 80px 40px 80px;">
+			<marquee behavior="alternate" >
+				  <img src="img/d(1).jpg" >
+				  <img src="img/d(2).jpg" >
+				  <img src="img/d(3).jpg" >
+				  <img src="img/d(4).jpg" >
+				  <img src="img/d(5).jpg" >
+				  <img src="img/d(6).jpg" >
+			</marquee>
+			</div>
+	</div>
+
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+         var typed = new Typed('.auto-text', {
+         strings: ['EXPERIENCES', 'ADVENTURES', 'ESCAPES','THRILLS'],
+         typeSpeed: 150,
+         backSpeeed: 150,
+         loop:true
+        });
+    </script>
+</body>
+<footer >
+	<div class="footer";>
+		&copy; Adventurescape 2023 All Rights Reserved</div>
+</footer>
+        
+</body>
+</html>
+
+    
